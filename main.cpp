@@ -111,7 +111,12 @@ void Visitor::displayInfo(){
 
 int main()
 {
-    std::cout<<"Hello World";
-
+    Enclosure e(10);
+    Animal a1("Lion",5,false);
+    Animal a2("Lion",7,false);
+    Animal a3("Lion",1,false);
+    e.addAnimal(a1);
+    e.addAnimal(a2);
+    e.addAnimal(a3);
     return 0;
 }
