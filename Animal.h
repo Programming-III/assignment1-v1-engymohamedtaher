@@ -18,6 +18,5 @@ class Animal{
         void feed();
         string getName();
         int getAge();
-        bool hungry();
 };
 #endif
